@@ -15,8 +15,8 @@ with open('../data/best_causal_model.pkl', 'rb') as f:
     best_model = pickle.load(f)
 with open('../data/X_test.pkl', 'rb') as f:
     X_test = pickle.load(f)
-with open('../data/y_test.pkl', 'rb') as f:
-    y_test = pickle.load(f)
+with open('../data/Y_test.pkl', 'rb') as f:
+    Y_test = pickle.load(f)
 
 # Validate the model
 # Estimate the Average Treatment Effect (ATE) and its confidence interval on the test set.
